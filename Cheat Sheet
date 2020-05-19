@@ -1,0 +1,20 @@
+#Example of cloning a git folder
+#Make sure you are in the folder where you want the clone to be
+#ls - list folder contents
+#ls -la - list folder content with hidden folders
+#cd .. - go back directory
+cd - set new directory 
+Then you ready to clone
+#git clone https://github.com/688Attack/Hyper-V.git
+
+
+Inilialize Repository
+You can inilialize a folder so it has a git repository - Which is pretty cool.
+to do this make sure you are in the folder you want to sync with git,
+Then run
+
+git init
+
+
+You then need to point it to a repo in git
+Create a folder in git - do this directly at Github in a web browser
