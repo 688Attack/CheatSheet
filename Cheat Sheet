@@ -1,3 +1,5 @@
+
+#Cloning
 #Example of cloning a git folder
 #Make sure you are in the folder where you want the clone to be
 #ls - list folder contents
@@ -8,13 +10,20 @@ Then you ready to clone
 #git clone https://github.com/688Attack/Hyper-V.git
 
 
-Inilialize Repository
-You can inilialize a folder so it has a git repository - Which is pretty cool.
-to do this make sure you are in the folder you want to sync with git,
-Then run
+#Follow these commands to sync a new Repo
+Create a Folder locally and also create a new folder in Github, you might as well use the same name for both.
+From the terminal make sure your in the folder and follow these commands one by one.
 
+git push -u origin master
 git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/688Attack/CheatSheet.git    <------Obviously copy the url from github
+git push -u origin master
+
+These insturction were coped from github, you see them when ever you create a new repo.
+
+Once all this is in place you can just use the standard controls from within VSCode to Push, Pull, Sync and Merge.
 
 
-You then need to point it to a repo in git
-Create a folder in git - do this directly at Github in a web browser
+This took me two days to work out so bloody use it!!!
